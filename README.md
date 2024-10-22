@@ -26,13 +26,15 @@ Este projeto simula o comportamento de um conjunto de semáforos, incluindo cont
 - **Java**: Linguagem de programação utilizada para desenvolver a simulação.
 - **ANSI Escape Codes**: Utilizado para colorir a saída no terminal e simular as luzes do semáforo.
 
-## Instruções para Rodar
-1. Clone este repositório.
+   ## Instruções de Execução
+1. Clone este repositório e Compile o código:
    ```bash
    git clone https://github.com/HenriqueRDCruz/Semaforo.git
+   javac App.java
    ```
-3. Execute:
+2. Execute o programa:
    ```bash
-   java.App
+   App.java
    ```
+## Exemplo de Execução
 4. O status dos semáforos será impresso no terminal em um loop contínuo, mostrando o ciclo de cores e a interação com os pedestres.
